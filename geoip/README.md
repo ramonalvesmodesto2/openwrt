@@ -5,7 +5,7 @@ curl -LO "$(curl -s https://api.github.com/repos/friendly-bits/geoip-shell/relea
 
 
 opkg install geoip-shell_0.6.5-r1.ipk
-geoip-shell configure
+geoip-shell configure -i br-lan
 
 ```
 
