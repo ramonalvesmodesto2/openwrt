@@ -1,6 +1,9 @@
 ## Tutorial
 
 ```bash
+opkg update
+opkg install curl
+
 curl -LO "$(curl -s https://api.github.com/repos/friendly-bits/geoip-shell/releases | grep -m1 -o 'https://github.com/friendly-bits/geoip-shell/releases/.*geoip-shell_.*\.ipk')"
 
 
