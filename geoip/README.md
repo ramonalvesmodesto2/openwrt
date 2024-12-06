@@ -10,3 +10,5 @@ geoip-shell configure
 ```
 
 ![Configuração](https://github.com/ramonalvesmodesto2/openwrt/blob/main/imagem.png)
+
+Fonte <https://github.com/friendly-bits/geoip-shell/blob/main/OpenWrt/README.md>
